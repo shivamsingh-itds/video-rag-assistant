@@ -86,9 +86,7 @@ Context from meeting transcript:
         | llm
         | StrOutputParser()
     )
-
     return rag_chain
-
 
 def ask_question(rag_chain, question:str) -> str:
     print(f"Question : {question}")
