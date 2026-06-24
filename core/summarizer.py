@@ -56,8 +56,6 @@ def summarize(transcript : str) -> str:
 def generate_title(transcipt : str) -> str:
     llm = get_llm()
 
-    
-
     title_chain = (
         RunnablePassthrough() | RunnableLambda(lambda x:{"text":x}) | 
         ChatPromptTemplate.from_messages([
