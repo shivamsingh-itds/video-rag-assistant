@@ -10,8 +10,6 @@ from core.extractor import extract_action_items, extract_key_decisions, extract_
 source = "https://www.youtube.com/watch?v=_Q-e_nczWqM&t=223s"
 language = "english"   # "english" → Whisper, "hinglish" → Sarvam
 
-
-
 chunks = process_input(source)
 
 
@@ -31,8 +29,6 @@ print("=" * 60)
 print("\n📋 SUMMARY")
 print("-" * 60)
 print(summary)
-
-
 
 action_items = extract_action_items(transcript)
 decisions = extract_key_decisions(transcript)
