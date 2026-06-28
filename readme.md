@@ -7,7 +7,7 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agent-orange)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-teal)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+
 
 ---
 
