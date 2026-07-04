@@ -38,8 +38,6 @@ def build_vector_store(transcript : str)->Chroma:
 
     return vector_store
 
-
-
 def load_vector_store() ->Chroma:
     embeddings = get_embeddings()
     vector_store = Chroma(
